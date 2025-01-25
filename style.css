@@ -1,0 +1,55 @@
+/* .homepage img {
+    width: 100%;
+    height: auto;
+} */
+.navbar {
+    position: fixed;
+    width: 100vw;
+    padding: 0;
+}
+
+.navbar .container-fluid{
+    background-color: rgb(0, 19, 50);
+}
+
+.container-fluid ul li a {
+    color: azure;
+    font-size: 1.2rem;
+}
+
+.container-fluid ul li a:hover {
+    color: darkorange;
+}
+
+.homepage {
+    height: 100vh;
+    background-image: url("./images/welder_main_picture.jpg");
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+}
+
+.homepage .hero-text {
+    padding-top: 20%;
+    padding-left: 5%;
+    width: 35%;
+    color: azure;
+}
+
+.hero-text button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(255, 119, 0);
+    font-weight: 600;
+    position: fixed;
+    right: 2%;
+    top: 12%;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.hero-text button:hover {
+    background-color:  azure;
+    color: rgb(0, 19, 50);
+}
