@@ -6,6 +6,7 @@
     position: fixed;
     width: 100vw;
     padding: 0;
+    z-index: 10;
 }
 
 .navbar .container-fluid{
@@ -47,9 +48,23 @@
     top: 12%;
     font-size: 1.1rem;
     font-weight: 800;
+    z-index: 2;
 }
 
 .hero-text button:hover {
     background-color:  azure;
     color: rgb(0, 19, 50);
+}
+
+.container-cards {
+    display: flex;
+    width: 80vw;
+    margin: 5vh auto;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+section h2 {
+    margin-top: 5vh;
+    text-align: center;
 }
